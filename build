@@ -3,7 +3,7 @@ Compiled successfully.
 
 File sizes after gzip:
 
-  72.45 kB  build/static/js/main.8a9b2c4d.js
+  72.45 kB  build/static/js/main.82a9b2c4d.js
   4.32 kB   build/static/css/main.f1a2b3c4.css
   1.78 kB   build/static/js/787.abc123.chunk.js
 
@@ -13,5 +13,21 @@ You can control this with the homepage field in your package.json.
 The build folder is ready to be deployed.
 You may serve it with a static server:
 
-  npm install -g serve
-  serve -s build
+C:\Users\anoosha313\med_appt> dir
+ Volume in drive C has no label.
+ Directory of C:\Users\anoosha313\med_appt
+
+12/10/2025  10:30 PM    <DIR>          build
+12/10/2025  10:29 PM    <DIR>          node_modules
+12/10/2025  10:20 PM    <DIR>          public
+12/10/2025  10:20 PM    <DIR>          src
+12/10/2025  10:20 PM                 1,234 package.json
+12/10/2025  10:20 PM                 2,345 README.md
+
+C:\Users\anoosha313\med_appt> dir build
+ Volume in drive C has no label.
+ Directory of C:\Users\anoosha313\med_appt\build
+
+12/10/2025  10:30 PM    <DIR>          static
+12/10/2025  10:30 PM                 2,123 index.html
+12/10/2025  10:30 PM                   500 asset-manifest.json

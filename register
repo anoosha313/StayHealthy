@@ -1,7 +1,7 @@
-curl -X POST http://localhost:5000/api/auth/login -H "Content-Type: application/json" -d '{"email":"anoosha313@test.com","password":"Password123!"}'
+curl -X POST http://localhost:5000/api/auth/register -H "Content-Type: application/json" -d '{"name":"anoosha313","email":"anoosha313@test.com","password":"Password123!"}'
 
 Output:
 {
   "authtoken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "message": "Logged in successfully"
+  "message": "User registered successfully"
 }
